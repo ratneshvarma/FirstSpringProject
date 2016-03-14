@@ -6,7 +6,7 @@ package spring.rat;
 
 public class Resturant {
    HotDrink hotDrink;
-    Resturant(HotDrink hotDrink){
+    public void setHotDrink(HotDrink hotDrink){
         this.hotDrink=hotDrink;
     }
 
