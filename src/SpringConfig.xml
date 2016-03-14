@@ -2,7 +2,7 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-     <bean id="resturantBean" class="spring.rat.Resturant" scope="prototype">
+     <bean id="resturantBean" class="spring.rat.Resturant" scope="singleton">
 
      </bean>
        <bean id="teaBean" class="spring.rat.Tea"></bean>
