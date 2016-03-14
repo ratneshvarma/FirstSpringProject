@@ -10,6 +10,9 @@ public class FistSpringMain {
     public static void main(String[] args) {
         ApplicationContext context = new ClassPathXmlApplicationContext("SpringConfig.xml");
         Resturant resturant = (Resturant) context.getBean("resturantBean");
-        resturant.prepareHotDink();
+        resturant.setWelcomeNote("Welcome to Resturant.");
+        resturant.greeting();
+        Resturant resturant2 = (Resturant) context.getBean("resturantBean");
+        resturant2.greeting();
     }
 }
