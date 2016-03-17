@@ -14,10 +14,15 @@ import java.util.List;
  */
 
 public class Resturant implements InitializingBean, DisposableBean{
+    String welcomeNote;
+
+    public void setWelcomeNote(String welcomeNote) {
+        this.welcomeNote = welcomeNote;
+    }
 
     public void greeting()
     {
-        System.out.println("welcome tp resturant.");
+        System.out.println(welcomeNote);
     }
 
     @Override

@@ -3,9 +3,10 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
      <bean id="resturantBean" class="spring.rat.Resturant">
-
+    <property name="welcomeNote" value="${welcomeNote}"/>
      </bean>
-    <bean class="spring.rat.DemoBeanPostProcessor"></bean>
-    <bean class="spring.rat.DemoBeanPostProcessor1"></bean>
-    <bean class="spring.rat.DemoBeanPostProcessor2"></bean>
+<bean class="spring.rat.DemoBeanPostProcessor"></bean>
+    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="location" value="spring.properties"></property>
+    </bean>
 </beans>
