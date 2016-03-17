@@ -5,5 +5,7 @@
      <bean id="resturantBean" class="spring.rat.Resturant">
 
      </bean>
-<bean class="spring.rat.DemoBeanPostProcessor"></bean>
+    <bean class="spring.rat.DemoBeanPostProcessor"></bean>
+    <bean class="spring.rat.DemoBeanPostProcessor1"></bean>
+    <bean class="spring.rat.DemoBeanPostProcessor2"></bean>
 </beans>
