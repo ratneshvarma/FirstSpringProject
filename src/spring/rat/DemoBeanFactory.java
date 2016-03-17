@@ -14,6 +14,6 @@ public class DemoBeanFactory implements BeanFactoryPostProcessor {
     public void postProcessBeanFactory(ConfigurableListableBeanFactory beanFactory) throws BeansException {
         BeanDefinition beanDefinition=beanFactory.getBeanDefinition("resturantBean");
         MutablePropertyValues mutablePropertyValues= beanDefinition.getPropertyValues();
-        mutablePropertyValues.addPropertyValue("welcomeNote","Hi All welcome to Our new Resturant");
+        mutablePropertyValues.addPropertyValue("welcomeNote","Hi All welcome to Our new Resturant modified message");
     }
 }
