@@ -35,11 +35,23 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="DemoBeanPostProcessor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/spring/rat/DemoBeanPostProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="SpringConfig.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SpringConfig.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-3.6206896">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+              <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -48,8 +60,8 @@
       <file leaf-file-name="FistSpringMain.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/spring/rat/FistSpringMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44444445">
-              <caret line="12" column="58" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
+            <state vertical-scroll-proportion="0.5185185">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,6 +94,7 @@
         <option value="$PROJECT_DIR$/src/spring/rat/Tea.java" />
         <option value="$PROJECT_DIR$/src/spring/rat/FistSpringMain.java" />
         <option value="$PROJECT_DIR$/src/spring/rat/Resturant.java" />
+        <option value="$PROJECT_DIR$/src/spring/rat/DemoBeanPostProcessor.java" />
         <option value="$PROJECT_DIR$/src/SpringConfig.xml" />
       </list>
     </option>
@@ -488,12 +501,12 @@
       <updated>1457970163929</updated>
       <workItem from="1457970169180" duration="1613000" />
       <workItem from="1457976769596" duration="6594000" />
-      <workItem from="1458240379592" duration="890000" />
+      <workItem from="1458240379592" duration="1236000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9097000" />
+    <option name="totallyTimeSpent" value="9443000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -624,18 +637,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/rat/DemoBeanPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/SpringConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.6206896">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/spring/rat/FistSpringMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44444445">
-          <caret line="12" column="58" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
+        <state vertical-scroll-proportion="0.5185185">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
