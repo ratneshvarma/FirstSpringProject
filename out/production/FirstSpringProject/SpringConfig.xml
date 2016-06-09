@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-     <bean id="resturantBean" class="spring.rat.Resturant">
-    <property name="welcomeNote" value="HI all"/>
-     </bean>
-<bean class="spring.rat.DemoBeanFactory"></bean>
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop-3.0.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+    <context:component-scan base-package="jdbc"></context:component-scan>
+<aop:aspectj-autoproxy/>
+   <!--  <bean id="resturantBean" class="spring.rat.Resturant">
+        <property name="welcomeNote" value="HI all"/>
+     </bean>-->
+  <bean id="coffee" class="aspect.Coffee">
+        <property name="name" value="Cold coffe."/>
+    </bean>
+    <bean id="tea1" class="test.Tea">
+        <property name="name" value="Hot Tea.qqqqqqqqqqqqqqq"></property>
+    </bean>
+    <bean id="tea" class="aspect.Tea">
+        <property name="name" value="Hot Tea."></property>
+    </bean>
 
+  <!--<bean class="spring.rat.DemoBeanFactory"></bean>-->
+<bean id="modelBean" class="aspect.Model"  autowire="byType"/>
+    <bean id="aspect" class="aspect.AspectComponent"></bean>
 </beans>

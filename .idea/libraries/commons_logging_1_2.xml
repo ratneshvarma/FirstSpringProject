@@ -23,6 +23,10 @@
       <root url="jar://$USER_HOME$/Downloads/spring-framework-4.0.0.RELEASE/libs/spring-webmvc-4.0.0.RELEASE.jar!/" />
       <root url="jar://$USER_HOME$/Downloads/spring-framework-4.0.0.RELEASE/libs/spring-webmvc-portlet-4.0.0.RELEASE.jar!/" />
       <root url="jar://$USER_HOME$/Downloads/spring-framework-4.0.0.RELEASE/libs/spring-websocket-4.0.0.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/aspectj-1.6.9.jar/aspectj-1.6.9.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/aopalliance-.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/aspectj-weaver.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/mysql-connector-java-5.0.8/mysql-connector-java-5.0.8-bin.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/Downloads/spring-framework-4.0.0.RELEASE/libs/spring-aop-4.0.0.RELEASE-javadoc.jar!/" />
@@ -45,6 +49,9 @@
       <root url="jar://$USER_HOME$/Downloads/spring-framework-4.0.0.RELEASE/libs/spring-webmvc-4.0.0.RELEASE-javadoc.jar!/" />
       <root url="jar://$USER_HOME$/Downloads/spring-framework-4.0.0.RELEASE/libs/spring-webmvc-portlet-4.0.0.RELEASE-javadoc.jar!/" />
       <root url="jar://$USER_HOME$/Downloads/spring-framework-4.0.0.RELEASE/libs/spring-websocket-4.0.0.RELEASE-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/aspectj-1.6.9.jar/aspectj-1.6.9.jar!/doc/aspectj5rt-api" />
+      <root url="jar://$USER_HOME$/Downloads/aspectj-1.6.9.jar/aspectj-1.6.9.jar!/doc/runtime-api" />
+      <root url="jar://$USER_HOME$/Downloads/aspectj-1.6.9.jar/aspectj-1.6.9.jar!/doc/weaver-api" />
     </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/Downloads/spring-framework-4.0.0.RELEASE/libs/spring-aop-4.0.0.RELEASE-sources.jar!/" />
@@ -67,6 +74,8 @@
       <root url="jar://$USER_HOME$/Downloads/spring-framework-4.0.0.RELEASE/libs/spring-webmvc-4.0.0.RELEASE-sources.jar!/" />
       <root url="jar://$USER_HOME$/Downloads/spring-framework-4.0.0.RELEASE/libs/spring-webmvc-portlet-4.0.0.RELEASE-sources.jar!/" />
       <root url="jar://$USER_HOME$/Downloads/spring-framework-4.0.0.RELEASE/libs/spring-websocket-4.0.0.RELEASE-sources.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/aspectj-1.6.9.jar/aspectj-1.6.9.jar!/doc/examples" />
+      <root url="jar://$USER_HOME$/Downloads/aspectj-1.6.9.jar/aspectj-1.6.9.jar!/doc/examples/ltw" />
     </SOURCES>
   </library>
 </component>
